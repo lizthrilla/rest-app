@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Router, Route, browswerHistory } from 'react-router'
+import { Router, Route, browserHistory } from 'react-router'
 
 import Layout from './Layout'
 import Home from './Home'
@@ -10,7 +10,7 @@ import Contact from './Contact'
 class App extends Component {
 
   render () {
-    return <Router history={browswerHistory}>
+    return <Router history={browserHistory}>
       <Route component={Layout}>
         <Route path='/' component={Home} />
         <Route path='/Menu' component={Menu} />

@@ -8,8 +8,9 @@ class Layout extends Component {
   }
 
   render () {
-    return <div>
-      <h1>Restaurant Name</h1>
+    return <div className='root'>
+      <h1>The Thistle and Poinsetta</h1>
+      <h4>Mexican Food with Scottish Flair</h4>
       <nav>
         <ul>
           <li>

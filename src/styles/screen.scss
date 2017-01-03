@@ -9,6 +9,41 @@ html {
 
 body {
   @include font-smoothing(on);
+
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+
+  .root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  nav {
+    display: inline;
+    align-content: left;
+
+    ul {
+      display: flex;
+      // flex-direction: row;
+      align-items: left;
+      justify-content: center;
+      list-style: none;
+
+      li {
+        margin: 1em;
+      }
+    }
+  }
+
+  .local {
+    text-align: center;
+
+    td {
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+    }
+  }
 }
