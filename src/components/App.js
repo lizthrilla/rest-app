@@ -1,36 +1,23 @@
 import React, { Component } from 'react'
-import Menu from './Menu'
+import { Router, Route, browswerHistory } from 'react-router'
+
+import Layout from './Layout'
 import Home from './Home'
+import Menu from './Menu'
+import Locations from './Locations'
+import Contact from './Contact'
 
 class App extends Component {
 
   render () {
-    return <div>
-      <h1>Restaurant Name</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href='/'> Home </a>
-          </li>
-          <li>
-            <a href='/menu'> Menu </a>
-          </li>
-          <li>
-            <a href='/contact'> Contact </a>
-          </li>
-          <li>
-            <a href='/locations'> Locations </a>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <Home />
-        <Menu />
-      </main>
-      <footer>
-        <p> &copy; 2017 Liz Tiller &hearts; at The Iron Yard - St Petersburg, Florida. </p>
-      </footer>
-    </div>
+    return <Router history={browswerHistory}>
+      <Route component={Layout}>
+        <Route path='/' component={Home} />
+        <Route path='/Menu' component={Menu} />
+        <Route path='/Locations' component={Locations} />
+        <Route path='/Contact' component={Contact} />
+      </Route>
+    </Router>
   }
 }
 
