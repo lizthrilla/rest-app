@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Black Pudding Nachos",
+          "description": "Classic pub chips with black pudding, gravy, cheese, jalapenos, sour cream and salsa.",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "name": "Entrees",
+      "items": [
+        {
+          "name": "Chiles en Escocia",
+          "description" : "Poblano peppers prepared like Chiles en Nogada with a walnut cream sauce, but stuffed with haggis.  (Vegetarian option available)",
+          "price": 1295
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Mars Bars stuffed Sopapillas",
+          "description": "Ever had the Scottish classic deep fried Mars Bar? Instead of chippy batter we fry it in our fluffy Sopapilla dough.",
+          "price": 599
+        }
+      ]
+    }
+  ]
+}

@@ -8,9 +8,10 @@ class Layout extends Component {
   }
 
   render () {
-    return <div className='root'>
+    return <div className='layout'>
       <h1>The Thistle and Poinsetta</h1>
       <h4>Mexican Food with Scottish Flair</h4>
+
       <nav>
         <ul>
           <li>
@@ -20,13 +21,14 @@ class Layout extends Component {
             <Link to='/menu'> Menu </Link>
           </li>
           <li>
-            <Link to='/contact'> Contact </Link>
+            <Link to='/contact'>Contact Us</Link>
           </li>
           <li>
             <Link to='/locations'> Locations </Link>
           </li>
         </ul>
       </nav>
+
       <main>
         {this.props.children}
       </main>
