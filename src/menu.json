@@ -29,6 +29,17 @@
           "price": 599
         }
       ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Irn Bru-ja",
+          "description" : "Irn Bru and Tequila",
+          "price": 600
+        }
+
+      ]
     }
   ]
 }
