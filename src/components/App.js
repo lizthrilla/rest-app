@@ -14,8 +14,9 @@ class App extends Component {
       <Route component={Layout}>
         <Route path='/' component={Home} />
         <Route path='/Menu' component={Menu} />
-        <Route path='/Locations' component={Locations} />
         <Route path='/Contact' component={Contact} />
+        <Route path='/Locations' component={Locations} />
+        {/* NEED to put the location thing in here  */}
       </Route>
     </Router>
   }

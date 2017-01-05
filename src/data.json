@@ -1,5 +1,15 @@
 {
-  "categories": [
+  "locations": [
+    {
+      "name": "Stilwell",
+      "address": "18100 Berryhill Drive, Stilwell, KS",
+      "hours": [
+        {"days": "Mon-Fri", "hours": "11AM-9PM"},
+        {"days": "Sat-Sunday", "hours": "9AM-9PM"}
+      ]
+    }
+  ],
+  "menu": [
     {
       "name": "Appetizers",
       "items": [
